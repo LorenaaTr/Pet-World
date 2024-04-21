@@ -48,11 +48,11 @@ const Login = () => {
 
   return (
     <div className="flex flex-col items-center p-20">
-      {/** <img
+      <img
         src="../../../images/loginphoto.png"
         alt="loginphoto"
         className="my-4"
-      /> */}
+      />
 
       <div className="text-2xl font-bold mb-4 text-center">
         Great to see you again!
