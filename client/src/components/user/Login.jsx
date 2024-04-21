@@ -49,9 +49,10 @@ const Login = () => {
   return (
     <div className="flex flex-col items-center p-20">
       <img
-        src="../../../images/loginphoto.png"
+        src="../../images/loginphoto.png"
         alt="loginphoto"
         className="my-4"
+        style={{ width: '200px', height: 'auto' }}
       />
 
       <div className="text-2xl font-bold mb-4 text-center">
@@ -72,7 +73,6 @@ const Login = () => {
               onChange={(event) => handleEmailChange(event)}
             />
           </div>
-
           <div className="flex flex-col">
             <label htmlFor="password" className="mt-4 mb-2 font-bold">
               Password
@@ -87,12 +87,12 @@ const Login = () => {
           </div>
         </div>
 
-        <div className="mt-4 text-blue-500 hover:underline font-bold">
+        <div className="mt-4 ml-40 text-pink hover:underline font-bold">
           <NavLink to="/forgotPassword">Forgot your password?</NavLink>
         </div>
 
         <div className="flex justify-center">
-          <button className="px-20 py-2 mt-8 rounded-lg bg-green-600 text-white hover:bg-green-700 focus:outline-none focus:bg-green-700">
+          <button className="px-20 font-bold py-2 mt-8  bg-brown text-nude hover:bg-green-700 focus:outline-none focus:bg-green-700">
             LogIn
           </button>
         </div>

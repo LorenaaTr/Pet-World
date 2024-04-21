@@ -54,14 +54,15 @@ const Register = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-       {/** <img
-        src="../../../images/loginphoto.png"
+      <img
+        src="../../images/loginphoto.png"
         alt="loginphoto"
         className="my-4"
-      /> */}
+        style={{ width: '200px', height: 'auto' }}
+      />
 
       <div className="text-2xl font-bold mb-4 text-center">
-        Let's get to know each other first..
+        Welcome to our Family..
       </div>
 
       <form onSubmit={handleSubmit}>
@@ -109,7 +110,7 @@ const Register = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="px-20 py-2 mt-8 rounded-none bg-green-900 text-white hover:bg-green-900 focus:outline-none focus:bg-green-500">
+          <button className="px-20 font-bold py-2 mt-8 rounded-none bg-brown text-nude hover:bg-green-900 focus:outline-none focus:bg-green-500">
             Sign Up
           </button>
         </div>
