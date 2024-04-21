@@ -28,9 +28,9 @@ import {
       <>
         <Button
           onClick={onOpen}
-          colorScheme="green"
+          colorScheme="brown"
           size="md"
-          _hover={{ bg: "green" }}
+          _hover={{ bg: "brown" }}
         >
           <GiHamburgerMenu size={"18px"} />
         </Button>

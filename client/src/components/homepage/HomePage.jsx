@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../layout/header/Header";
+import Footer from "../layout/footer/Footer";
 
 const HomePage = () => {
   return (
@@ -21,9 +22,8 @@ const HomePage = () => {
           consequat mattis lorem, ac ultrices est cursus nec.
         </p>
       </section>
-      <footer style={footerStyle}>
-        <p>&copy; 2024 Our Website. All Rights Reserved.</p>
-      </footer>
+     
+      <Footer/>
     </div>
   );
 };
@@ -39,11 +39,6 @@ const mainContentStyle = {
   padding: "1rem",
 };
 
-const footerStyle = {
-  textAlign: "center",
-  padding: "1rem",
-  backgroundColor: "#333",
-  color: "#fff",
-};
+
 
 export default HomePage;

@@ -17,6 +17,16 @@ const HomeMenu = () => {
 
       // border="1px solid red"
     >
+         <Flex
+        justify={"center"}
+        className="dropDown"
+        height="100%"
+        align={"center"}
+        width="18%"
+      >
+        <Link to="/home">Home</Link>
+      </Flex>
+
       <Flex
         justify={"center"}
         className="dropDown"
@@ -39,39 +49,6 @@ const HomeMenu = () => {
         >
           <Link to="#">
             <div className="main-menu">
-              <div className="hoverlist">
-                <ul>
-                  <p className="category-heading">Ethnic Wear</p>
-                  <li>
-                    <Link to="#">Kurta / Kurtis</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Kurta Sets</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Ethnic Dresses</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Tops/Tunics</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Leggings/Churidars</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Pants/Palazzos</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Skirts</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Dupattas/Stoles</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Rain Jackets</Link>
-                  </li>
-                </ul>
-              </div>
-
               <div className="hoverlist">
                 <ul>
                   <p className="category-heading">Western Wear</p>

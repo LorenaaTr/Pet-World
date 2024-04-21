@@ -8,7 +8,7 @@ import { FaHome } from "react-icons/fa";
 
 const NavbarTop = () => {
   return (
-    <Box bg={"black"} paddingTop={2} paddingBottom={2}>
+    <Box bg={"#A68F81"} paddingTop={2} paddingBottom={2}>
       <Flex
         width="80%"
         margin="auto"

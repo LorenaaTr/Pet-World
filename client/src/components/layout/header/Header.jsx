@@ -94,7 +94,7 @@ const Navbar = () => {
       position={"sticky"}
       top="0"
       zIndex={"100"}
-      bg="#f7f8f7"
+      bg="#F2F0F0"
       width="100%"
       boxShadow=" 0px 7px 7px -5px rgba(170, 159, 170, 0.2)"
     >
@@ -170,7 +170,7 @@ const Navbar = () => {
                   {user.role === "admin" || user.role === "manager" ? (
                     <>
                       <MenuItem
-                        _hover={{ backgroundColor: "green" }}
+                        _hover={{ backgroundColor: "#A68F81" }}
                         onClick={() => {
                           navigate("/dashboard");
                         }}
@@ -182,7 +182,7 @@ const Navbar = () => {
                     ""
                   )}
                   <MenuItem
-                    _hover={{ backgroundColor: "green" }}
+                    _hover={{ backgroundColor: "#A68F81" }}
                     onClick={() => {
                       navigate("/userOrders");
                     }}
@@ -214,7 +214,7 @@ const Navbar = () => {
                 ) : (
                   <>
                     <MenuItem
-                      _hover={{ backgroundColor: "green" }}
+                      _hover={{ backgroundColor: "#A68F81" }}
                       onClick={() => {
                         navigate("/login");
                       }}
@@ -222,7 +222,7 @@ const Navbar = () => {
                       Sign In
                     </MenuItem>
                     <MenuItem
-                      _hover={{ backgroundColor: "green" }}
+                      _hover={{ backgroundColor: "#A68F81" }}
                       // backgroundColor="#fdb852"
                       onClick={() => {
                         navigate("/register");
