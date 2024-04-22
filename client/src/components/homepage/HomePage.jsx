@@ -5,7 +5,6 @@ import Footer from "../layout/footer/Footer";
 const HomePage = () => {
   return (
     <div>
-      <Header />
       <header style={headerStyle}>
         <h1>Welcome to Our Website</h1>
         <p>We make your life easier with our amazing products.</p>
@@ -23,7 +22,6 @@ const HomePage = () => {
         </p>
       </section>
      
-      <Footer/>
     </div>
   );
 };

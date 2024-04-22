@@ -6,7 +6,7 @@ dotenv.config();
 const users = [
   {
     firstName: "Admin",
-    email: "admin@pethouse.com",
+    email: "admin@pawscare.com",
     password: process.env.PASSWORD_ADMIN,
     confirmation_password: process.env.PASSWORD_ADMIN,
     role: "admin"

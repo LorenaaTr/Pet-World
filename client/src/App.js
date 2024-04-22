@@ -9,6 +9,12 @@ import axios from "axios";
 import { setUser } from "./slices/userSlice";
 import { useDispatch } from "react-redux";
 import Layout from "./components/layout/Layout";
+import Users from "./components/adminpage/components/users/User";
+import AddUserPage from  "./components/adminpage/components/users/AddUser";
+import EditUserPage from  "./components/adminpage/components/users/EditUser";
+import CategoryPage from  "./components/adminpage/components/category/CategoryPage";
+import EditCategory from  "./components/adminpage/components/category/EditCategory";
+import CreateCategory from  "./components/adminpage/components/category/AddCategory";
 
 
 function App() {
@@ -52,6 +58,12 @@ function App() {
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/login" element={<LoginPage />} />
         <Route exact path="/register" element={<RegisterPage />} />
+        <Route exact path="/dashboard/users" element={ <Users />} />
+        <Route exact path="/dashboard/createUser" element={ <AddUserPage />} />
+        <Route exact path="/dashboard/users/:id" element={ <EditUserPage />} />
+        <Route exact path="/dashboard/category" element={ <CategoryPage />} />
+        <Route exact path="/dashboard/createCategory" element={ <CreateCategory />} />
+        <Route exact path="/dashboard/category/:categoryId" element={ <EditCategory />} />
       </Routes>
    </Layout>
   );

@@ -14,6 +14,8 @@ const jwt = require("jsonwebtoken");
 const dbOperation = require("./database/mssql/dbOperation.js");
 const exphbs = require("express-handlebars").create();
 const cors = require("cors");
+const categoryRouter = require("./routes/category.route");
+
 
 require("./utils/cloudinary");
 
@@ -57,6 +59,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/auth", authRoute);
+app.use("/category", categoryRouter);
+
 
 
 const port = process.env.PORTAPP || 3001;
